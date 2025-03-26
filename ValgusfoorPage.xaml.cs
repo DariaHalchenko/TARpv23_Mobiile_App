@@ -12,7 +12,7 @@ namespace TARpv23_Mobiile_App
         private readonly Random rnd = new Random();
         private int? RandomIndex = null;
 
-        public ValgusfoorPage()
+        public ValgusfoorPage(int k)
         {
             Title = "Valgusfoor";
             header = new Label

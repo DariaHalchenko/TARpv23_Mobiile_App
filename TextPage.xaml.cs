@@ -81,7 +81,7 @@ public partial class TextPage : ContentPage
         }
         else if (btn.ZIndex == 3)
         {
-            await Navigation.PushAsync(new ValgusfoorPage());
+            await Navigation.PushAsync(new ValgusfoorPage(btn.ZIndex));
         }
         else
         {

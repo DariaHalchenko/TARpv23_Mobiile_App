@@ -61,7 +61,7 @@ public partial class Timer_Page : ContentPage
         }
         else if (btn.ZIndex == 3)
         {
-            await Navigation.PushAsync(new ValgusfoorPage());
+            await Navigation.PushAsync(new ValgusfoorPage(btn.ZIndex));
         }
         else
         {
